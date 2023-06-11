@@ -11,6 +11,7 @@ import java.util.Date;
 @Getter
 @Setter
 public class Anime {
+    Long id;
     String title;
     String titleJp;
     Integer episode;

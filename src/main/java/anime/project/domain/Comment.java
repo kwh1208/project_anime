@@ -9,11 +9,12 @@ import java.util.Date;
 @Component
 @Getter
 @Setter
-public class Episodes {
+public class Comment {
     Long id;
-    Anime anime;
-    String title;
-    Date broadcastDate;
-    String story;
-
+    Member member;
+    String anime;
+    String comment;
+    Date commentDate;
+    Integer like;
+    Integer dislike;
 }

@@ -10,6 +10,7 @@ import java.util.Date;
 @Getter
 @Setter
 public class VoiceActor {
+    Long id;
     String name;
     String nameJp;
     Date birth;

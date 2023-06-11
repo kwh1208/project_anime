@@ -10,6 +10,7 @@ import java.util.Date;
 @Getter
 @Setter
 public class Company {
+    Long id;
     String name;
     String nameJp;
     Date birth;

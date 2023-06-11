@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Setter
 public class Character {
     Anime anime;
+    Long id;
     String name;
     String nameJp;
     String voiceActor;
